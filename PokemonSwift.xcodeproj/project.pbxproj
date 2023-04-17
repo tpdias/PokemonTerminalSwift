@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		234C464729CA0760002A0C3C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234C464629CA0760002A0C3C /* main.swift */; };
+		234C466829CA3F4E002A0C3C /* Interfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234C466729CA3F4E002A0C3C /* Interfaces.swift */; };
+		234C466A29CCB7A3002A0C3C /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234C466929CCB7A3002A0C3C /* Models.swift */; };
+		234C466C29CCBE9E002A0C3C /* Venusaur.mp3 in Headers */ = {isa = PBXBuildFile; fileRef = 234C466B29CCBC0B002A0C3C /* Venusaur.mp3 */; settings = {ATTRIBUTES = (Public, ); }; };
+		234C466E29CCC28A002A0C3C /* background.mp3 in Headers */ = {isa = PBXBuildFile; fileRef = 234C466D29CCC278002A0C3C /* background.mp3 */; settings = {ATTRIBUTES = (Public, ); }; };
+		234C467029CCC395002A0C3C /* Charizard.mp3 in Headers */ = {isa = PBXBuildFile; fileRef = 234C466F29CCC37A002A0C3C /* Charizard.mp3 */; settings = {ATTRIBUTES = (Public, ); }; };
+		234C467229CCC76D002A0C3C /* capture.mp3 in Headers */ = {isa = PBXBuildFile; fileRef = 234C467129CCC766002A0C3C /* capture.mp3 */; settings = {ATTRIBUTES = (Public, ); }; };
+		234C467729CCEC4F002A0C3C /* Pikachu.mp3 in Headers */ = {isa = PBXBuildFile; fileRef = 234C467329CCEC3D002A0C3C /* Pikachu.mp3 */; settings = {ATTRIBUTES = (Public, ); }; };
+		234C467829CCEC52002A0C3C /* Gengar.mp3 in Headers */ = {isa = PBXBuildFile; fileRef = 234C467629CCEC3D002A0C3C /* Gengar.mp3 */; settings = {ATTRIBUTES = (Public, ); }; };
+		234C467929CCEC54002A0C3C /* Blastoise.mp3 in Headers */ = {isa = PBXBuildFile; fileRef = 234C467529CCEC3D002A0C3C /* Blastoise.mp3 */; settings = {ATTRIBUTES = (Public, ); }; };
+		234C467A29CCEC56002A0C3C /* Alakazam.mp3 in Headers */ = {isa = PBXBuildFile; fileRef = 234C467429CCEC3D002A0C3C /* Alakazam.mp3 */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		234C464129CA0760002A0C3C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		234C464329CA0760002A0C3C /* PokemonSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PokemonSwift; sourceTree = BUILT_PRODUCTS_DIR; };
+		234C464629CA0760002A0C3C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		234C466729CA3F4E002A0C3C /* Interfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interfaces.swift; sourceTree = "<group>"; };
+		234C466929CCB7A3002A0C3C /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		234C466B29CCBC0B002A0C3C /* Venusaur.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Venusaur.mp3; sourceTree = SOURCE_ROOT; };
+		234C466D29CCC278002A0C3C /* background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = background.mp3; sourceTree = "<group>"; };
+		234C466F29CCC37A002A0C3C /* Charizard.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Charizard.mp3; sourceTree = "<group>"; };
+		234C467129CCC766002A0C3C /* capture.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = capture.mp3; sourceTree = "<group>"; };
+		234C467329CCEC3D002A0C3C /* Pikachu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pikachu.mp3; sourceTree = "<group>"; };
+		234C467429CCEC3D002A0C3C /* Alakazam.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alakazam.mp3; sourceTree = "<group>"; };
+		234C467529CCEC3D002A0C3C /* Blastoise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Blastoise.mp3; sourceTree = "<group>"; };
+		234C467629CCEC3D002A0C3C /* Gengar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Gengar.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		234C464029CA0760002A0C3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		234C463A29CA0760002A0C3C = {
+			isa = PBXGroup;
+			children = (
+				234C464529CA0760002A0C3C /* PokemonSwift */,
+				234C464429CA0760002A0C3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		234C464429CA0760002A0C3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				234C464329CA0760002A0C3C /* PokemonSwift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		234C464529CA0760002A0C3C /* PokemonSwift */ = {
+			isa = PBXGroup;
+			children = (
+				234C466929CCB7A3002A0C3C /* Models.swift */,
+				234C466729CA3F4E002A0C3C /* Interfaces.swift */,
+				234C464629CA0760002A0C3C /* main.swift */,
+				234C466B29CCBC0B002A0C3C /* Venusaur.mp3 */,
+				234C466D29CCC278002A0C3C /* background.mp3 */,
+				234C466F29CCC37A002A0C3C /* Charizard.mp3 */,
+				234C467129CCC766002A0C3C /* capture.mp3 */,
+				234C467429CCEC3D002A0C3C /* Alakazam.mp3 */,
+				234C467529CCEC3D002A0C3C /* Blastoise.mp3 */,
+				234C467629CCEC3D002A0C3C /* Gengar.mp3 */,
+				234C467329CCEC3D002A0C3C /* Pikachu.mp3 */,
+			);
+			path = PokemonSwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		234C466429CA2EF7002A0C3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234C466C29CCBE9E002A0C3C /* Venusaur.mp3 in Headers */,
+				234C466E29CCC28A002A0C3C /* background.mp3 in Headers */,
+				234C467929CCEC54002A0C3C /* Blastoise.mp3 in Headers */,
+				234C467A29CCEC56002A0C3C /* Alakazam.mp3 in Headers */,
+				234C467029CCC395002A0C3C /* Charizard.mp3 in Headers */,
+				234C467829CCEC52002A0C3C /* Gengar.mp3 in Headers */,
+				234C467729CCEC4F002A0C3C /* Pikachu.mp3 in Headers */,
+				234C467229CCC76D002A0C3C /* capture.mp3 in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		234C464229CA0760002A0C3C /* PokemonSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 234C464A29CA0760002A0C3C /* Build configuration list for PBXNativeTarget "PokemonSwift" */;
+			buildPhases = (
+				234C466429CA2EF7002A0C3C /* Headers */,
+				234C463F29CA0760002A0C3C /* Sources */,
+				234C464029CA0760002A0C3C /* Frameworks */,
+				234C464129CA0760002A0C3C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokemonSwift;
+			productName = FirstNano;
+			productReference = 234C464329CA0760002A0C3C /* PokemonSwift */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		234C463B29CA0760002A0C3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					234C464229CA0760002A0C3C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 234C463E29CA0760002A0C3C /* Build configuration list for PBXProject "PokemonSwift" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 234C463A29CA0760002A0C3C;
+			productRefGroup = 234C464429CA0760002A0C3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				234C464229CA0760002A0C3C /* PokemonSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		234C463F29CA0760002A0C3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234C466A29CCB7A3002A0C3C /* Models.swift in Sources */,
+				234C464729CA0760002A0C3C /* main.swift in Sources */,
+				234C466829CA3F4E002A0C3C /* Interfaces.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		234C464829CA0760002A0C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		234C464929CA0760002A0C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		234C464B29CA0760002A0C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DFJUFQ6A3N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		234C464C29CA0760002A0C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DFJUFQ6A3N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		234C463E29CA0760002A0C3C /* Build configuration list for PBXProject "PokemonSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				234C464829CA0760002A0C3C /* Debug */,
+				234C464929CA0760002A0C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		234C464A29CA0760002A0C3C /* Build configuration list for PBXNativeTarget "PokemonSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				234C464B29CA0760002A0C3C /* Debug */,
+				234C464C29CA0760002A0C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 234C463B29CA0760002A0C3C /* Project object */;
+}
